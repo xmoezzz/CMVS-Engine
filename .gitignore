@@ -2,7 +2,6 @@
 *.d
 
 # Compiled Object files
-*.slo
 *.lo
 *.o
 *.obj
@@ -23,10 +22,7 @@
 # Compiled Static libraries
 *.lai
 *.la
-*.a
-*.lib
 
 # Executables
-*.exe
 *.out
 *.app
