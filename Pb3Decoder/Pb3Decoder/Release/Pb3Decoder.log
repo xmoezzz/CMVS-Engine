@@ -1,0 +1,34 @@
+﻿生成启动时间为 2016/7/15 20:50:18。
+     1>项目“E:\Pb3Decoder\Pb3Decoder\Pb3Decoder.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt BMPMaker.cpp CPB.cpp JBP1.cpp PB3B.cpp Pb3Decoder.cpp
+         BMPMaker.cpp
+     1>BMPMaker.cpp(29): warning C4996: '_wfopen': This function or variable may be unsafe. Consider using _wfopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(590) : 参见“_wfopen”的声明
+         CPB.cpp
+         JBP1.cpp
+     1>JBP1.cpp(125): warning C4018: “<”: 有符号/无符号不匹配
+     1>JBP1.cpp(202): warning C4018: “<”: 有符号/无符号不匹配
+     1>JBP1.cpp(204): warning C4244: “=”: 从“DWORD”转换到“WORD”，可能丢失数据
+     1>JBP1.cpp(508): warning C4018: “<”: 有符号/无符号不匹配
+     1>JBP1.cpp(519): warning C4018: “<”: 有符号/无符号不匹配
+         PB3B.cpp
+     1>PB3B.cpp(270): warning C4996: '_wfopen': This function or variable may be unsafe. Consider using _wfopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(841) : 参见“_wfopen”的声明
+         Pb3Decoder.cpp
+     1>Pb3Decoder.cpp(20): warning C4996: '_wfopen': This function or variable may be unsafe. Consider using _wfopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(590) : 参见“_wfopen”的声明
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Pb3Decoder\Release\Pb3Decoder.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Pb3Decoder\Release\Pb3Decoder.pdb" /SUBSYSTEM:CONSOLE,"5.01" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Pb3Decoder\Release\Pb3Decoder.lib" /MACHINE:X86 /SAFESEH Release\BMPMaker.obj
+         Release\CPB.obj
+         Release\JBP1.obj
+         Release\PB3B.obj
+         Release\Pb3Decoder.obj
+         正在生成代码
+         已完成代码的生成
+         Pb3Decoder.vcxproj -> E:\Pb3Decoder\Release\Pb3Decoder.exe
+     1>已完成生成项目“E:\Pb3Decoder\Pb3Decoder\Pb3Decoder.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.42
