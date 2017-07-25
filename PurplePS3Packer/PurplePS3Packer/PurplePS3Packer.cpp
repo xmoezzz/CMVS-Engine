@@ -589,7 +589,8 @@ BOOL CompileScript(wstring& FileName)
 		ULONG NewOffset;
 		CHAR GBKStr[2048] = { 0 };
 		BOOL ConvertResult = FALSE;
-		WideCharToMultiByte(936, 0, it->second.CNLine.c_str(), it->second.CNLine.length(), GBKStr, 2048, NULL, &ConvertResult);
+
+		WideCharToMultiByte(GetACP(), 0, it->second.CNLine.c_str(), it->second.CNLine.length(), GBKStr, 2048, NULL, &ConvertResult);
 
 		if (ConvertResult)
 		{
